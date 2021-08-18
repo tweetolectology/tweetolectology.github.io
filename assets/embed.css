@@ -1,3 +1,5 @@
+@media only screen and (max-aspect-ratio: 1 / 1) {
+
 body {font-size: 100%;overflow:hidden;}
 
 .video-container {
@@ -12,7 +14,31 @@ transform-origin: top left;
     transform:scale(0.5);
     -moz-transform-scale(0.5);
     width:200vw;
-    height:180vh;
+    height:200vh;
 overflow-x:hidden;
 overflow-y:hidden;
+}
+}
+
+@media only screen and (min-aspect-ratio: 1 / 1) {
+
+body {font-size: 100%;overflow:hidden;}
+
+.video-container {
+overflow:hidden;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+
+.video-container embed {
+transform-origin: top left;
+    transform:scale(0.8);
+    -moz-transform-scale(0.8);
+    width:125vw;
+    height:125vh;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
 }
