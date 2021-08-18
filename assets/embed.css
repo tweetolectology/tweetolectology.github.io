@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media (max-aspect-ratio: 3/4) {
 
 body {font-size: 100%;overflow:hidden;}
 
@@ -20,7 +20,7 @@ overflow-y:hidden;
 }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1){
 
 body {font-size: 100%;overflow:hidden;}
 
@@ -43,7 +43,30 @@ overflow-y:hidden;
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-aspect-ratio: 1 / 1) and (max-aspect-ratio: 4 / 3) {
+
+body {font-size: 100%;overflow:hidden;}
+
+.video-container {
+overflow:hidden;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+
+.video-container embed {
+transform-origin: top left;
+    transform:scale(1);
+    -moz-transform-scale(1);
+    width:100vw;
+    height:100vh;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+}
+
+@media (min-aspect-ratio: 4 / 3 ) {
 
 body {font-size: 100%;overflow:hidden;}
 
