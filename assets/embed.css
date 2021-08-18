@@ -88,3 +88,25 @@ overflow-y:hidden;
 }
 
 }
+
+@media (max-width: 600px) {
+
+body {font-size: 100%;overflow:hidden;}
+
+.video-container {
+overflow:hidden;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+
+.video-container embed {
+transform-origin: top left;
+    transform:scale(0.5);
+    -moz-transform-scale(0.5);
+    width:200vw;
+    height:200vh;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+}
