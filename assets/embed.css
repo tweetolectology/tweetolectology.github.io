@@ -11,5 +11,6 @@ transform-origin: top left;
     -moz-transform-scale(0.5);
     width:200vw;
     height:200vh;
-overflow:hidden;
+overflow-x:hidden;
+overflow-y:scroll;
 }
