@@ -23,6 +23,23 @@ padding-bottom:0.1em;padding-top:0.1em;
 font-family:'Lato',sans-serif;text-transform:uppercase;letter-spacing:.05em
 }
 
+
+.video-container {
+overflow:hidden;
+}
+
+
+.video-container embed {
+    -webkit-transform:scale(0.5);
+    -moz-transform-scale(0.5);
+    width:175vw;
+    height:200vh;
+overflow:hidden;
+position:absolute;
+left:0;
+top:0;
+}
+
 .interesting {
 font-size:0.9em;
 padding-bottom:0.1em;padding-top:0.1em;

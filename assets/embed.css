@@ -1,0 +1,15 @@
+body {font-size: 100%;overflow:hidden;}
+
+.video-container {
+overflow:hidden;
+}
+
+
+.video-container embed {
+transform-origin: top left;
+    transform:scale(0.5);
+    -moz-transform-scale(0.5);
+    width:200vw;
+    height:200vh;
+overflow:hidden;
+}
