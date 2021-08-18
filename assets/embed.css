@@ -33,10 +33,10 @@ overflow-y:hidden;
 
 .video-container embed {
 transform-origin: top left;
-    transform:scale(0.8);
-    -moz-transform-scale(0.8);
-    width:125vw;
-    height:125vh;
+    transform:scale(0.75);
+    -moz-transform-scale(0.75);
+    width:133vw;
+    height:133vh;
 overflow-x:hidden;
 overflow-y:hidden;
 }
@@ -56,10 +56,10 @@ overflow-y:hidden;
 
 .video-container embed {
 transform-origin: top left;
-    transform:scale(1);
-    -moz-transform-scale(1);
-    width:100vw;
-    height:100vh;
+    transform:scale(0.9);
+    -moz-transform-scale(0.9);
+    width:111vw;
+    height:111vh;
 overflow-x:hidden;
 overflow-y:hidden;
 }
@@ -90,6 +90,28 @@ overflow-y:hidden;
 }
 
 @media (max-width: 600px) {
+
+body {font-size: 100%;overflow:hidden;}
+
+.video-container {
+overflow:hidden;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+
+.video-container embed {
+transform-origin: top left;
+    transform:scale(0.5);
+    -moz-transform-scale(0.5);
+    width:200vw;
+    height:200vh;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+}
+
+@media (max-height: 600px) {
 
 body {font-size: 100%;overflow:hidden;}
 
